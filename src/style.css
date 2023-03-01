@@ -1,0 +1,97 @@
+body {
+     background-image: url(https://wallpapers.com/images/file/4k-minimalist-sunset-dias38qs1iashzf0.jpg);
+     background-size: 100vw;
+     background-position: top;
+     height: 100vh;
+     font-family: 'Trebuchet MS', sans serif;
+}
+ .calculator {
+     width: 250px;
+     height: 425px;
+     background: transparent;
+     border: 2px solid rgba(255, 255, 255, 0.5);
+     border-radius: 20px;
+     backdrop-filter: blur(15px);
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+}
+ .btn-key {
+     color: #fff;
+     width: 50px;
+     height: 50px;
+     font-size: 25px;
+     margin: 2px;
+     background-color: rgba(255, 255, 255, 0.1);
+     border: 1px solid rgba(255, 255, 255, 0.5);
+     border-radius: 12px;
+     backdrop-filter: blur(15px);
+}
+ button:hover {
+     background-color: rgba(255, 255, 255, 0.5);
+     color: #000;
+     cursor: pointer;
+}
+ #result {
+     color: #fff;
+     width: 220px;
+     height: 50px;
+     font-size: 25px;
+     margin: 2px;
+     background-color: rgba(255, 255, 255, 0.1);
+     border: 1px solid rgba(255, 255, 255, 0.5);
+     border-radius: 12px;
+     backdrop-filter: blur(15px);
+     position: relative;
+     left: 50%;
+     top: 10%;
+     transform: translate(-50%);
+     text-align: right;
+     line-height:50px;
+     padding-right: 0px;
+}
+ .all-keys {
+     position: relative;
+     left: 50%;
+     top: 50%;
+     transform: translate(-50%, -50%);
+}
+ .title-calc {
+     color: transparent;
+     display: none;
+     text-align: center;
+     line-height: 20px;
+     font-weight: lighter;
+     letter-spacing: .1rem;
+     text-transform: uppercase;
+}
+ @media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+     .all-keys {
+         position: relative;
+         left: 50%;
+         top: 45%;
+         transform: translate(-50%, -50%);
+         text-align: center;
+    }
+     .btn-key {
+         color: #fff;
+         width: 50px;
+         height: 50px;
+         font-size: 20px;
+         background-color: rgba(255, 255, 255, 0.1);
+         border: 1px solid rgba(255, 255, 255, 0.5);
+         border-radius: 12px;
+         backdrop-filter: blur(15px);
+         text-align: center;
+         -webkit-backdrop-filter: blur(15px);
+         -moz-backdrop-filter: blur(15px);
+    }
+     body {
+         background-image: url(https://wallpapers.com/images/file/4k-minimalist-sunset-dias38qs1iashzf0.jpg);
+         background-size: 300vh;
+         background-position: top;
+         font-family: 'Trebuchet MS', sans serif;
+    }
+}

@@ -1,0 +1,36 @@
+<section oninput="checkEnter()">
+  <div class="calculator">
+    <h1 class="title-calc">Calculadora</h1>
+    <input type="text" id="result" > </input>
+    <table class="all-keys">     
+      <tr>
+        <td><button class="btn-key" onclick="cleanNum()">C</button></td>
+        <td><button class="btn-key" onclick="delNum()">CE</button></td>
+        <td><button class="btn-key" onclick="insert('/')">/</button></td>
+        <td><button  class="btn-key" onclick="insert('*')">X</button></td>
+      </tr>
+       <tr>
+        <td><button onclick="insert('7')"  class="btn-key">7</button></td>
+        <td><button onclick="insert('8')" class="btn-key">8</button></td>
+        <td><button onclick="insert('9')" class="btn-key">9</button></td>
+        <td><button class="btn-key" onclick="insert('-')">-</button></td>
+      </tr>
+       <tr>
+        <td><button onclick="insert('4')" class="btn-key">4</button></td>
+        <td><button onclick="insert('5')" class="btn-key">5</button></td>
+        <td><button onclick="insert('6')" class="btn-key">6</button></td>
+        <td><button class="btn-key" onclick="insert('+')">+</button></td>
+      </tr>
+      <tr>
+        <td><button onclick="insert('1')"  class="btn-key">1</button></td>
+        <td><button onclick="insert('2')"  class="btn-key">2</button></td>
+        <td><button onclick="insert('3')"  class="btn-key">3</button></td>
+        <td rowspan="2"><button onclick="calculate()"  class="btn-key" style="height:106px;">=</button></td>
+      </tr>
+       <tr>
+        <td colspan="2"><button onclick="insert('0')" class="btn-key"style="width:106px;">0</button></td>
+        <td><button class="btn-key" onclick="insert('.')">.</button></td>
+        </tr>
+    </table>
+  </div>
+</section>
